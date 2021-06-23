@@ -33,19 +33,19 @@ class ClassForm extends Component {
         return (
             <div className="classForm">
                 <form onSubmit={this.handleSubmit}>
-                    <label >
+                    <label className="classLabel" >
                        Name: <br />
-                       <input name="username" type="text" value={this.state.username} onChange={this.handleChnage} placeholder={this.props.name} /> 
+                       <input className="classInput" name="username" type="text" value={this.state.username} onChange={this.handleChnage} placeholder={this.props.name} /> 
                     </label>
                         <br />
-                    <label> <br />
+                    <label className="classLabel"> <br />
                         Email: <br />
-                        <input name="email" type="text" value={this.state.email} onChange={this.handleChnage} placeholder={this.props.email} />
+                        <input className="classInput" name="email" type="text" value={this.state.email} onChange={this.handleChnage} placeholder={this.props.email} />
                     </label>
                         <br />
-                    <label> <br />
+                    <label className="classLabel"> <br />
                         Password: <br />
-                        <input name="password" type="password" value={this.state.password} onChange={this.handleChnage} placeholder={this.props.password} />
+                        <input className="classInput" name="password" type="password" value={this.state.password} onChange={this.handleChnage} placeholder={this.props.password} />
                     </label><br />
                     <input className="classSubmit" type="submit" value="Submit" />
                 </form>
