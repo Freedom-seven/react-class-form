@@ -13,9 +13,6 @@
     font-weight: bolder;
 }
 
-.classLabel {
-
-}
 
 .classInput {
     width: auto;
@@ -37,4 +34,11 @@
  background-color: black;
  color: white;
  font-weight: bolder;
+}
+
+.classSubmit:hover {
+ background-color: darkcyan;
+ color: black;
+ margin-right: 10px;
+ transition: margin-right ease-in;
 }
