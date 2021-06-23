@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ClassForm.css';
 
 class ClassForm extends Component {
     constructor (props) {
@@ -30,9 +31,9 @@ class ClassForm extends Component {
 
     render() {
         return (
-            <div>
+            <div className="classForm">
                 <form onSubmit={this.handleSubmit}>
-                    <label>
+                    <label >
                        Name: <br />
                        <input name="username" type="text" value={this.state.username} onChange={this.handleChnage} placeholder={this.props.name} /> 
                     </label>
