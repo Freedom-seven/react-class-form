@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FunctionForm.css'
 
-const FunctionForm = (porps) => {
+const FunctionForm = (props) => {
     
     const [form, setForm] = useState({
         username: "",
