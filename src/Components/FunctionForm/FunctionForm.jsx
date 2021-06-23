@@ -7,6 +7,19 @@ const FunctionForm = () => {
         email: "",
         password: ""
     });
+
+    const handleChange = (e) => {
+        const name = e.target.name;
+        const value = e.target.value;
+
+        setForm({[name]: value});
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(form);
+    }
+
     return (
         <div>
             Function Form
