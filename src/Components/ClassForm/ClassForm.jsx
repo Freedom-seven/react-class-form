@@ -32,6 +32,7 @@ class ClassForm extends Component {
     render() {
         return (
             <div className="classForm">
+                <h4>Class Form</h4>
                 <form onSubmit={this.handleSubmit}>
                     <label className="classLabel" >
                        Name: <br />
