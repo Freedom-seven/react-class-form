@@ -37,7 +37,7 @@ const FunctionForm = (props) => {
                 <br />
                 <label className="functionLabel"> <br />
                     Password: <br />
-                    <input className="functionLabel" type="text" name="password" value={form.password} onChange={handleChange} placeholder={props.password} />
+                    <input className="functionLabel" type="password" name="password" value={form.password} onChange={handleChange} placeholder={props.password} />
                 </label>
                 <br />
                 <input className="functionSubmit" type="submit" value="Submit" />
