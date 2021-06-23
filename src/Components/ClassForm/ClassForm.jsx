@@ -10,7 +10,7 @@ class ClassForm extends Component {
             password: ""
         };
 
-        this.handleChnage = this.handleChnage.bind(this);
+        this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
