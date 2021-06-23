@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './FunctionForm.css'
 
-const FunctionForm = () => {
+const FunctionForm = (porps) => {
+    
     const [form, setForm] = useState({
         username: "",
         email: "",
@@ -21,8 +22,24 @@ const FunctionForm = () => {
     }
 
     return (
-        <div>
-            Function Form
+        <div className="functionForm">
+            <form onSubmit={handleSubmit}>
+                <label className="functionLabel">
+                    Name:
+                    <input className="functionLabel" type="text" name="username" value={form.username} onChange={handleChange} placeholder={props.name} />
+                </label>
+
+                <label className="functionLabel">
+                    Email:
+                    <input className="functionLabel" type="text" name="email" value={form.email} onChange={handleChange} placeholder={props.email} />
+                </label>
+
+                <label className="functionLabel">
+                    Password:
+                    <input className="functionLabel" type="text" name="password" value={form.password} onChange={handleChange} placeholder={props.password} />
+                </label>
+                <input className="functionSubmit" type="submit" value="Submit" />
+            </form>
         </div>
     );
 }
