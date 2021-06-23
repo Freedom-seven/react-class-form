@@ -9,14 +9,17 @@
     left: 40%;
     right: 0px;
     border-radius: 10px 0px 10px 0px;
+    border: 1px solid wheat;
     color: honeydew;
     font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 5px;
 }
 
 .functionInput {
     width: auto;
     height: 20px;
-    border-radius: 5px 10px;
+    border-radius: 10px 5px;
 }
 
 .functionInput:hover {
@@ -29,7 +32,7 @@
 .functionSubmit {
  padding: 5px;
  margin-top: 5px;
- border-radius: 0px 10px;
+ border-radius: 10px 0px;
  background-color: black;
  color: white;
  font-weight: bolder;
