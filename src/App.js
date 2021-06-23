@@ -10,7 +10,7 @@ function App() {
         email={"example@gmail.com"}
         password={"Password12"}
       />
-      <br /> <br />
+      
       <hr />
 
       <FunctionForm
