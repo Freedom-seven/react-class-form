@@ -9,8 +9,10 @@
     left: 40%;
     right: 0px;
     border-radius: 0px 10px 0px 10px;
+    border: 1px solid whitesmoke;
     color: white;
     font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 
