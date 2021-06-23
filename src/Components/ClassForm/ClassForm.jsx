@@ -21,7 +21,22 @@ class ClassForm extends Component {
     render() {
         return (
             <div>
-                Class Form
+                <form onSubmit={this.handleSubmit}>
+                    <label>
+                       Name:
+                       <input type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.name} /> 
+                    </label>
+
+                    <label>
+                        Email:
+                        <input type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.email} />
+                    </label>
+
+                    <label>
+                        Password:
+                        <input type="password" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.password} />
+                    </label>
+                </form>
             </div>
         );
     }
