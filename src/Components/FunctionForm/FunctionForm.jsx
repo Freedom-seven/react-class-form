@@ -18,26 +18,28 @@ const FunctionForm = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log("Function form submitted:");
         console.log(form);
     }
 
     return (
         <div className="functionForm">
             <form onSubmit={handleSubmit}>
-                <label className="functionLabel">
-                    Name:
+                <label className="functionLabel"> <br />
+                    Name: <br />
                     <input className="functionLabel" type="text" name="username" value={form.username} onChange={handleChange} placeholder={props.name} />
                 </label>
-
-                <label className="functionLabel">
-                    Email:
+                <br />
+                <label className="functionLabel"> <br />
+                    Email: <br />
                     <input className="functionLabel" type="text" name="email" value={form.email} onChange={handleChange} placeholder={props.email} />
                 </label>
-
-                <label className="functionLabel">
-                    Password:
+                <br />
+                <label className="functionLabel"> <br />
+                    Password: <br />
                     <input className="functionLabel" type="text" name="password" value={form.password} onChange={handleChange} placeholder={props.password} />
                 </label>
+                <br />
                 <input className="functionSubmit" type="submit" value="Submit" />
             </form>
         </div>
