@@ -12,3 +12,32 @@
     color: honeydew;
     font-weight: bolder;
 }
+
+.functionInput {
+    width: auto;
+    height: 20px;
+    border-radius: 5px 10px;
+}
+
+.functionInput:hover {
+    margin-right: 5px;
+    background-color: blanchedalmond;
+    color: black;
+    transition: margin-right ease-in-out;
+}
+
+.functionSubmit {
+ padding: 5px;
+ margin-top: 5px;
+ border-radius: 0px 10px;
+ background-color: black;
+ color: white;
+ font-weight: bolder;
+}
+
+.functionSubmit:hover {
+ background-color: cadetblue;
+ color: white;
+ margin-right: 10px;
+ transition: margin-right ease-in;
+}
