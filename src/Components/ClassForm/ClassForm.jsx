@@ -36,6 +36,7 @@ class ClassForm extends Component {
                         Password:
                         <input type="password" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.password} />
                     </label>
+                    <input className="classSubmit" type="submit" value="Submit" />
                 </form>
             </div>
         );
