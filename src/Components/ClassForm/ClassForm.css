@@ -9,7 +9,8 @@
     left: 40%;
     right: 0px;
     border-radius: 0px 10px 0px 10px;
-    
+    color: white;
+    font-weight: bolder;
 }
 
 .classLabel {
@@ -17,9 +18,23 @@
 }
 
 .classInput {
+    width: auto;
+    height: 20px;
+    border-radius: 5px 10px;
+}
 
+.classInput:hover {
+    margin-right: 5px;
+    background-color: lavender;
+    color: black;
+    transition: margin-right ease-in-out;
 }
 
 .classSubmit {
-
+ padding: 5px;
+ margin-top: 5px;
+ border-radius: 0px 10px;
+ background-color: black;
+ color: white;
+ font-weight: bolder;
 }
