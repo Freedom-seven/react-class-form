@@ -22,10 +22,10 @@ class ClassForm extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log(<h1>Class form submited</h1>);
-        console.log(this.state.username);
-        console.log(this.state.email);
-        console.log(this.state.password);
+        console.log("Class form submitted:");
+        console.log("Name: " + this.state.username);
+        console.log("Email: " + this.state.email);
+        console.log("Password: " + this.state.password);
     }
 
     render() {
@@ -34,17 +34,17 @@ class ClassForm extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <label>
                        Name: <br />
-                       <input name="username" type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.name} /> 
+                       <input name="username" type="text" value={this.state.username} onChange={this.handleChnage} placeholder={this.props.name} /> 
                     </label>
                         <br />
                     <label> <br />
                         Email: <br />
-                        <input name="email" type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.email} />
+                        <input name="email" type="text" value={this.state.email} onChange={this.handleChnage} placeholder={this.props.email} />
                     </label>
                         <br />
                     <label> <br />
                         Password: <br />
-                        <input name="password" type="password" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.password} />
+                        <input name="password" type="password" value={this.state.password} onChange={this.handleChnage} placeholder={this.props.password} />
                     </label><br />
                     <input className="classSubmit" type="submit" value="Submit" />
                 </form>
