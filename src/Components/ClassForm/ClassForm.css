@@ -1,0 +1,25 @@
+.classForm {
+    position: relative;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 15px;
+    height: 20rem;
+    width: 20rem;
+    top: 5px;
+    left: 40%;
+    right: 0px;
+    border-radius: 0px 10px 0px 10px;
+    
+}
+
+.classLabel {
+
+}
+
+.classInput {
+
+}
+
+.classSubmit {
+
+}
