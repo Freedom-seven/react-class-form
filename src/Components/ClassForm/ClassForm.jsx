@@ -14,7 +14,7 @@ class ClassForm extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleChnage(e) {
+    handleChange(e) {
         const value = e.target.value;
         const name = e.target.name;
 
@@ -35,17 +35,17 @@ class ClassForm extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <label className="classLabel" >
                        Name: <br />
-                       <input className="classInput" name="username" type="text" value={this.state.username} onChange={this.handleChnage} placeholder={this.props.name} /> 
+                       <input className="classInput" name="username" type="text" value={this.state.username} onChange={this.handleChange} placeholder={this.props.name} /> 
                     </label>
                         <br />
                     <label className="classLabel"> <br />
                         Email: <br />
-                        <input className="classInput" name="email" type="text" value={this.state.email} onChange={this.handleChnage} placeholder={this.props.email} />
+                        <input className="classInput" name="email" type="text" value={this.state.email} onChange={this.handleChange} placeholder={this.props.email} />
                     </label>
                         <br />
                     <label className="classLabel"> <br />
                         Password: <br />
-                        <input className="classInput" name="password" type="password" value={this.state.password} onChange={this.handleChnage} placeholder={this.props.password} />
+                        <input className="classInput" name="password" type="password" value={this.state.password} onChange={this.handleChange} placeholder={this.props.password} />
                     </label><br />
                     <input className="classSubmit" type="submit" value="Submit" />
                 </form>
