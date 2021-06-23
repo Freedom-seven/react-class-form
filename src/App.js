@@ -1,6 +1,6 @@
 import ClassForm from "./Components/ClassForm/ClassForm";
 import FunctionForm from "./Components/FunctionForm/FunctionForm";
-
+import './App.css'
 
 function App() {
   return (
