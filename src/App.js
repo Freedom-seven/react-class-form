@@ -13,7 +13,11 @@ function App() {
       <br /> <br />
       <hr />
 
-      <FunctionForm />
+      <FunctionForm
+        name={"John Doe"}
+        email={"example@icloud.com"}
+        password={"Password34"}
+      />
     </>
   );
 }
