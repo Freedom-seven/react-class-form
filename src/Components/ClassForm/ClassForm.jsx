@@ -23,17 +23,17 @@ class ClassForm extends Component {
             <div>
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                       Name:
+                       Name: <br />
                        <input type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.name} /> 
                     </label>
 
                     <label>
-                        Email:
+                        Email: <br />
                         <input type="text" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.email} />
                     </label>
 
                     <label>
-                        Password:
+                        Password: <br />
                         <input type="password" value={this.state.value} onChange={this.handleChnage} placeholder={this.props.password} />
                     </label>
                     <input className="classSubmit" type="submit" value="Submit" />
