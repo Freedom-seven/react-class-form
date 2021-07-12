@@ -22,11 +22,11 @@ const FunctionForm = (props) => {
         console.log(form.username);
         console.log(form.email);
         console.log(form.password);
-        setForm={
+        setForm({
             username: "",
             email: "",
             password: ""
-        }
+        })
     }
 
     return (
