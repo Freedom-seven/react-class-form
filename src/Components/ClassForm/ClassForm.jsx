@@ -27,11 +27,11 @@ class ClassForm extends Component {
         console.log("Name: " + this.state.username);
         console.log("Email: " + this.state.email);
         console.log("Password: " + this.state.password);
-        this.setState={
+        this.setState({
             username: "",
             email: "",
             password: ""
-        }
+        })
     }
 
     render() {
